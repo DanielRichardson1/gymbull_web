@@ -23,10 +23,10 @@ const HeroSection = () => {
                                 </span>
                             </button>
                         </div>
-
+                        {/* TODO: Remove maybe */}
                         <nav className="hidden space-x-10 md:flex md:items-center md:justify-center lg:space-x-12">
                             <a href="#" title="" className="text-base font-normal text-gray-400 transition-all duration-200 hover:text-white"> Home </a>
-                            <a href="#" title="" className="text-base font-normal text-gray-400 transition-all duration-200 hover:text-white"> Features </a>
+                            <a href="#" title="" className="text-base font-normal text-gray-400 transition-all duration-200 hover:text-white"> Privacy Policy </a>
                             <a href="#" title="" className="text-base font-normal text-gray-400 transition-all duration-200 hover:text-white"> About Us </a>
                             <a href="#" title="" className="text-base font-normal text-gray-400 transition-all duration-200 hover:text-white"> Support </a>
                         </nav>
@@ -62,8 +62,8 @@ const HeroSection = () => {
                                 <a href="#" title="" className="inline-flex items-center justify-center px-8 py-4 text-base font-normal text-white transition-all duration-200 rounded-full bg-gradient-to-r from-cyan-500 to-purple-500 hover:contrast-150" role="button"> Download Now </a>
                             </div>
                             <p className="max-w-xs mx-auto mt-4 text-base font-normal text-gray-400 sm:mt-8">
-                                30 days free premium trial.<br />
-                                then plans start at $4.99
+                                Limited time only:<br />
+                                Free 30-day trial with full access to all features!
                             </p>
                         </div>
                         <div className="lg:col-span-2 lg:order-first">

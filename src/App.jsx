@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './index.css'
 import HeroSection from './HeroSection.jsx'
+import HowItWorks from './HowItWorks.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -8,6 +9,7 @@ function App() {
   return (
     <>
       <HeroSection />
+      <HowItWorks />
     </>
   )
 }
