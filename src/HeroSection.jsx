@@ -63,7 +63,7 @@ const HeroSection = () => {
                             </div>
                             <p className="max-w-xs mx-auto mt-4 text-base font-normal text-gray-400 sm:mt-8">
                                 Limited time only:<br />
-                                Free 30-day trial with full access to all features!
+                                Free 30-day trial with full access to all premium features!
                             </p>
                         </div>
                         <div className="lg:col-span-2 lg:order-first">
