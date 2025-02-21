@@ -1,6 +1,7 @@
 import React from 'react';
 import heroImage from './assets/hero_ss-left.png';
 import logo from './assets/image2vector.svg';
+import MobileStoreButton from './MobileStoreButton';
 
 const HeroSection = () => {
     return (
@@ -58,8 +59,9 @@ const HeroSection = () => {
                         <div className="max-w-md mx-auto text-center lg:max-w-none lg:col-span-3">
                             <h1 className="text-4xl font-normal text-white uppercase sm:text-5xl lg:text-6xl xl:text-8xl">Personal Training <br /><span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-purple-500">any time, any place</span></h1>
                             <p className="mt-6 text-lg font-normal text-white sm:text-xl">The ultimate personal trainer that fits in your pocket! We tailor fitness plans to your unique needs and goals, offering personalized workouts and guidance directly to you—for free.</p>
-                            <div className="mt-8 sm:mt-10">
-                                <a href="#" title="" className="inline-flex items-center justify-center px-8 py-4 text-base font-normal text-white transition-all duration-200 rounded-full bg-gradient-to-r from-cyan-500 to-purple-500 hover:contrast-150" role="button"> Download Now </a>
+                            <div className="mt-8 sm:mt-10 justify-center">
+                                <MobileStoreButton store="ios" url="https://www.apple.com/app-store/" className="mr-8"/>
+                                <MobileStoreButton store="android" url="https://play.google.com/store" />
                             </div>
                             <p className="max-w-xs mx-auto mt-4 text-base font-normal text-gray-400 sm:mt-8">
                                 Limited time only:<br />
