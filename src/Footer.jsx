@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -9,23 +8,23 @@ const Footer = () => {
                     <div>
                         <ul className="mt-8 flex justify-between">
                             <li>
-                                <Link to="/" className="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"> Home </Link>
+                                <a href="#" title="" className="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"> Home </a>
                             </li>
                             <li>
-                                <Link to="/contact-us" className="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"> Contact Us </Link>
+                                <a href="#" title="" className="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"> Contact Us </a>
                             </li>
                             <li>
-                                <Link to="/privacy-policy" className="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"> Privacy Policy </Link>
+                                <a href="#" title="" className="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"> Privacy Policy </a>
                             </li>
                             <li>
-                                <Link to="/customer-support" className="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"> Customer Support </Link>
+                                <a href="#" title="" className="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"> Customer Support </a>
                             </li>
                         </ul>
                     </div>
                 </div>
                 <hr className="mt-16 mb-10 border-gray-800" />
                 <div className="flex flex-wrap items-center justify-between">
-                    <img className="h-8 auto md:order-1" src="./src/assets/logo.svg" alt="" />
+                    <img className="h-8 auto md:order-1" src="https://cdn.rareblocks.xyz/collection/celebration/images/logo-alt.svg" alt="" />
                     <ul className="flex items-center space-x-3 md:order-3">
                         <li>
                             <a href="#" title="" className="flex items-center justify-center text-white transition-all duration-200 bg-transparent border border-gray-700 rounded-full w-7 h-7 focus:bg-blue-600 hover:bg-blue-600 hover:border-blue-600 focus:border-blue-600">
