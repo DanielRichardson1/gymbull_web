@@ -1,6 +1,6 @@
 import React from 'react';
-import heroImage from './assets/hero_ss-left.png';
-import logo from './assets/image2vector.svg';
+import heroImage from '../assets/hero_ss-left.png';
+import logo from '../assets/logo.svg';
 import MobileStoreButton from './MobileStoreButton';
 
 const HeroSection = () => {
@@ -24,13 +24,6 @@ const HeroSection = () => {
                                 </span>
                             </button>
                         </div>
-                        {/* TODO: Remove maybe */}
-                        <nav className="hidden space-x-10 md:flex md:items-center md:justify-center lg:space-x-12">
-                            <a href="#" title="" className="text-base font-normal text-gray-400 transition-all duration-200 hover:text-white"> Home </a>
-                            <a href="#" title="" className="text-base font-normal text-gray-400 transition-all duration-200 hover:text-white"> Privacy Policy </a>
-                            <a href="#" title="" className="text-base font-normal text-gray-400 transition-all duration-200 hover:text-white"> About Us </a>
-                            <a href="#" title="" className="text-base font-normal text-gray-400 transition-all duration-200 hover:text-white"> Support </a>
-                        </nav>
 
                         <div className="relative hidden md:justify-center md:items-center md:inline-flex group">
                             <div className="absolute transition-all duration-200 rounded-full -inset-px bg-gradient-to-r from-cyan-500 to-purple-500 group-hover:shadow-lg group-hover:shadow-cyan-500/50"></div>
@@ -38,18 +31,6 @@ const HeroSection = () => {
                         </div>
                     </div>
 
-                    <nav className="md:hidden">
-                        <div className="flex flex-col pt-8 pb-4 space-y-6">
-                            <a href="#" title="" className="text-base font-normal text-gray-400 transition-all duration-200 hover:text-white"> Home </a>
-                            <a href="#" title="" className="text-base font-normal text-gray-400 transition-all duration-200 hover:text-white"> Features </a>
-                            <a href="#" title="" className="text-base font-normal text-gray-400 transition-all duration-200 hover:text-white"> About Us </a>
-                            <a href="#" title="" className="text-base font-normal text-gray-400 transition-all duration-200 hover:text-white"> Support </a>
-                            <div className="relative inline-flex items-center justify-center group">
-                                <div className="absolute transition-all duration-200 rounded-full -inset-px bg-gradient-to-r from-cyan-500 to-purple-500 group-hover:shadow-lg group-hover:shadow-cyan-500/50"></div>
-                                <a href="#" title="" className="relative inline-flex items-center justify-center w-full px-6 py-2 text-base font-normal text-white bg-black border border-transparent rounded-full" role="button"> Download Now </a>
-                            </div>
-                        </div>
-                    </nav>
                 </div>
             </header>
 
@@ -59,8 +40,8 @@ const HeroSection = () => {
                         <div className="max-w-md mx-auto text-center lg:max-w-none lg:col-span-3">
                             <h1 className="text-4xl font-normal text-white uppercase sm:text-5xl lg:text-6xl xl:text-8xl">Personal Training <br /><span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-purple-500">any time, any place</span></h1>
                             <p className="mt-6 text-lg font-normal text-white sm:text-xl">The ultimate personal trainer that fits in your pocket! We tailor fitness plans to your unique needs and goals, offering personalized workouts and guidance directly to you—for free.</p>
-                            <div className="mt-8 sm:mt-10 justify-center">
-                                <MobileStoreButton store="ios" url="https://www.apple.com/app-store/" className="mr-8"/>
+                            <div className="mt-8 sm:mt-10 flex justify-center space-x-4">
+                                <MobileStoreButton store="ios" url="https://www.apple.com/app-store/" />
                                 <MobileStoreButton store="android" url="https://play.google.com/store" />
                             </div>
                             <p className="max-w-xs mx-auto mt-4 text-base font-normal text-gray-400 sm:mt-8">
