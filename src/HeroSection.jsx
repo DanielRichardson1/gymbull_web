@@ -1,6 +1,6 @@
 import React from 'react';
-import heroImage from '../assets/hero_ss-left.png';
-import logo from '../assets/logo.svg';
+import heroImage from './assets/hero_ss-left.png';
+import logo from './assets/logo.svg';
 import MobileStoreButton from './MobileStoreButton';
 
 const HeroSection = () => {
